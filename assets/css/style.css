@@ -131,7 +131,6 @@ img {
     .container{
         width: 100%;
     }
-
     .row {
         display: flex;
         flex-direction: column;
@@ -165,4 +164,12 @@ img {
     .col .col-right{
         padding-top: 30px;
     }    
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container{
+        width: 100%;
+    }
 }
